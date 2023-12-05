@@ -1,0 +1,18 @@
+body{
+      background-color: black;
+}
+
+h1{
+      font-size: 40px;
+      font-family: 'Single Day', cursive;
+      color: #72DB73;
+      margin-left: 1.5em;
+      margin-top: 1em;
+}
+
+h2{
+      font-size: 40px;
+      color: white;
+      margin-left: 1.5em;
+      margin-bottom: 1rem;
+}
