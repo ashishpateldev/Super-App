@@ -2,12 +2,14 @@ import './App.css';
 import Background from './components/Background.png';
 import PageTwo from './page2/PageTwo';
 import PageThree from './page3/PageThree';
+import PageFour from './page4/PageFour';
+import PageFive from './Page5/PageFive';
 
 
 function App() {
   return (
     <>
-      <div id='home'>
+      <div class='mb-12' id='home'>
         <div id='image'>
           <img id='bgimage' src={Background} />
         </div>
@@ -33,6 +35,10 @@ function App() {
       {< PageTwo />}
 
       {< PageThree />}
+
+      { < PageFour />}
+
+      { < PageFive />}
 
     </>
   );

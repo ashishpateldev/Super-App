@@ -15,7 +15,7 @@ import Image11 from './components/image11.png';
 function PageTwo() {
       return (
             <>
-                  <div className='flex'>
+                  <div className='flex mb-16'>
                         <div>
                               <h1 className='mb-10'>Super app</h1>
                               <h2>CHOOSE YOUR</h2>
