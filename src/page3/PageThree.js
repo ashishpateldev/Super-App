@@ -60,7 +60,7 @@ function PageThree() {
                                     <h1 class='text-white mt-4'>05:35 PM</h1>
                               </div>
 
-                              <div class='mb-12 ml-12 w-[48rem] h-[11rem] flex font-roboto font-bold bg-indigo-900'>
+                              <div class='mb-12 ml-12 w-[48rem] h-[11rem] flex font-roboto font-bold bg-[rgba(16,23,68,1)]'>
                                     <div>
                                           <img src={Cloud} class='p-3'></img>
                                           <p class='text-white pl-3'>Heavy Rain</p>

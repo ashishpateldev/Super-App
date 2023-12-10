@@ -5,6 +5,7 @@ import Cloud from './components/cloud.png';
 import Meter from './components/meter.png';
 import Wind from './components/wind.png';
 import Drop from './components/drop.png';
+import { LoremIpsum, Avatar } from 'react-lorem-ipsum';
 
 function PageFour() {
       return (
@@ -63,7 +64,7 @@ function PageFour() {
                                           <p class='text-white mt-4 ml-12 text-xl'>05:35 PM</p>
                                     </div>
 
-                                    <div class='mb-24 ml-12 w-[24rem] h-[7rem] flex font-roboto font-bold bg-indigo-900'>
+                                    <div class='mb-24 ml-12 w-[24rem] h-[7rem] flex font-roboto font-bold bg-[rgba(16,23,68,1)]'>
                                           <div>
                                                 <img src={Cloud} class='p-3 h-20'></img>
                                                 <p class='text-white pl-3 text-xs'>Heavy Rain</p>
@@ -107,8 +108,9 @@ function PageFour() {
 
 
 
-                        <div class=' w-[24rem] h-[25rem] bg-white ml-12 mt-11 mb-4 flex rounded-xl text-gray-700'>
-                              <h1>hii</h1>
+                        <div class='overflow-auto w-[24rem] h-[25rem] bg-[rgba(241,199,91,1)] ml-12 mt-11 mb-4 rounded-xl text-gray-700'>
+                              <h1 class='text-black font-roboto font-sans ml-10 mt-5'>All Notes</h1>
+                              <p class='text-black font-roboto font-sans ml-10 mr-5 mt-3'> < LoremIpsum /> < LoremIpsum />  </p>
                         </div>
 
 
